@@ -1,0 +1,22 @@
+PROTO MySphere [
+
+]
+{
+    Solid {
+        translation 0.316429757266987 0.026860799999999987 0.34997778254448525
+        rotation -0.9948765907722193 -0.06112756279581386 0.08052322770536294 2.943089427716921
+        children [
+            DEF sphere Shape {
+            geometry Sphere {
+                radius 0.03
+            }
+            }
+        ]
+        boundingObject USE sphere
+        physics Physics {
+            mass 2
+        }
+        linearVelocity 0.021916175744346386 3.55849392627714e-17 0.015282983912774165
+        angularVelocity 0.5094327970924722 -0.29371303745029315 -0.730539191478213
+    }
+}
